@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Add Record Form</title>
+</head>
+<body>
+<form action="insert_athlete.php" method="post">
+    <p>
+        <label for="name">Athlete Name:</label>
+        <input type="text" name="name" id="ath_name">
+    </p>
+    <p>
+        <label for="sport">Sport:</label>
+        <input type="text" name="sport" id="sport_name">
+    </p>
+    <p>
+        <label for="year">Student Year:</label>
+        <input type="text" name="year" id="student_year">
+    </p>
+    <input type="submit" value="Submit">
+</form>
+<form action="delete_trainer.php" method="post">
+    <p>
+        <label for="id">Input ID of Trainer for Removal:</label>
+        <input type="number" name="coach_id" id="coachID">
+    </p>
+    <input type="submit" value="Submit">
+</form>
+<form action="update_year.php" method="post">
+    <p>
+        <label for="name">Input Name of Athlete:</label>
+        <input type="text" name="name" id="ath_name_up">
+    </p>
+    <p>
+        <label for="year">Enter new year:</label>
+        <input type="text" name="year" id="ath_year">
+    </p>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
